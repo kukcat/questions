@@ -1,0 +1,17 @@
+*{
+    font-size: 30px;
+}
+
+input{
+    display: none;
+}
+
+label{
+    border: 1px solid white;
+    padding: 3px 5px;
+    border-radius: 100px;
+}
+
+input:checked + label{
+    border: 1px solid #000;
+}
